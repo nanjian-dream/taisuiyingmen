@@ -214,7 +214,7 @@ textarea {
 // 骰子结束
 /* twine-user-script #2: "javascript.js" */
 // 禁用历史记录控件
-// Config.history.controls = false; 
+Config.history.controls = false; 
 
 // 全局nobr
 Config.passages.nobr = true;</script><tw-passagedata pid="1" name="StoryAuthor" tags="" position="100,100" size="100,100">&lt;div style=&quot;text-align: right; font-size: 14px&quot;&gt;作者：南间梦&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryInit" tags="" position="225,100" size="100,100">/* diceNumber D maxDice Eg.1D6 */
@@ -385,13 +385,13 @@ SAN: &lt;&lt;do&gt;&gt;$san&lt;&lt;/do&gt;&gt;
 &lt;hr&gt;
 &lt;span style=&quot;font-size: 14px; color: red&quot;&gt;Tips：剧情需要，年龄最好在40岁以下，20-35岁最合适。&lt;/span&gt;&lt;br&gt;
 &lt;br&gt;
-姓名 &lt;&lt;textbox &quot;$name&quot; &quot;张三&quot;&gt;&gt; *&lt;br&gt;
+姓名 &lt;&lt;textbox &quot;$name&quot; &quot;&quot;&gt;&gt; *&lt;br&gt;
 &lt;br&gt;
-性别 &lt;&lt;textbox &quot;$gender&quot; &quot;男&quot;&gt;&gt; *&lt;br&gt;
+性别 &lt;&lt;textbox &quot;$gender&quot; &quot;&quot;&gt;&gt; *&lt;br&gt;
 &lt;br&gt;
-年龄 &lt;&lt;textbox &quot;$age&quot; &quot;28&quot;&gt;&gt; *&lt;br&gt;
+年龄 &lt;&lt;textbox &quot;$age&quot; &quot;&quot;&gt;&gt; *&lt;br&gt;
 &lt;br&gt;
-职业 &lt;&lt;textbox &quot;$job&quot; &quot;法外狂徒&quot;&gt;&gt; *&lt;br&gt;
+职业 &lt;&lt;textbox &quot;$job&quot; &quot;&quot;&gt;&gt; *&lt;br&gt;
 &lt;br&gt;
 &lt;&lt;linkreplace &quot;确定&quot;&gt;&gt;
   &lt;&lt;if $name == &quot;&quot; || $gender == &quot;&quot; || $age == &quot;&quot; || $job == &quot;&quot;&gt;&gt;
